@@ -15,7 +15,7 @@ import {
     Heading,
   } from '@chakra-ui/react';
 
-export default function admin() {
+export default function Admin() {
   const [userData, setUserData] = useState(Object);
 
   useEffect(() => {
